@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Portfolio</title>
+    <style>
+body {
+    background-color:rgb(104, 107, 109);
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+p {
+    size: 200px, 100px;
+    font-size: 1.2em;
+    color: green;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: underline;
+    grid-gap: 20px;
+}
+
+div {
+    color: yellow;
+    text-align: center;
+
+}
+    </style>
+</head>   
+        <!-- 
+          Directions:
+            1. Create a DIV element to contain the page content
+            2. Inside your DIV, create an H1 tag that contains your name as the text
+            3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"
+            4. Below your H2 tag, create an HR tag which will make a horizontal line
+            5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")
+            6. Make the word "favorite" italicized
+            7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!
+            8. Create an H3 tag that says "About Me"
+            9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!
+            10. Create an H3 tag that says "My Projects"
+            11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"
+            12. Add another H3 that contains "Contact Me" as text
+            13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"
+            14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)
+
+            BONUS: Try one of the following ideas if you finish early
+              - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
+              - In your contact me section, make the text "Phone:" and "Email:" bolded
+        -->
+
+    <body id="body1">
+        <div>
+            <h1>My Portfolio</h1>
+
+            <h1 class="name">Derek Daniel Vogel</h1>
+        
+            <h2>Software Developer</h2>
+        
+            
+
+            <h2><hr></h2>
+
+            <p>My <i>favorite</i> thing about programming is the ability to constantly learn new things each day.</p>
+            
+            <p>
+                <a href="images\coding-portfolio.jpeg">
+                <img src="images\coding-portfolio.jpeg" 
+                alt="Code">
+                </a>
+            </p>
+            
+            <h3>About Me</h3>
+            
+            <p>3 wolf moon green juice letterpress, fashion axe mlkshk cliche pop-up squid taxidermy intelligentsia keytar knausgaard.</p>
+
+            <h3>My Projects</h3>
+            
+            <div class="grid-container">
+                
+                <a href="C:\Users\dvoge\OneDrive\Desktop\Matching-Game\index.html\index.html">
+                    <div class="grid-child gold">
+                    Project 1
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="float-child yellow">
+                    Project 2
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="float-child orange">
+                    Project 3
+                    </div>
+                </a>
+
+              </div>
+
+            <h3>Contact Me</h3>
+            
+            <p><b>Phone:</b> (123) 456-7890 | <a href="example@example.com">example@example.com</a></p>
+            
+        </div>
+    </body>
+</html>
